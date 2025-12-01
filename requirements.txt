@@ -1,0 +1,23 @@
+# Core ADK Framework
+adk>=0.1.0
+
+# Async support (built-in with Python 3.7+, but listed for clarity)
+# asyncio is part of Python standard library
+
+# Optional: Enhanced observability
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+
+# Optional: Vector similarity for advanced memory
+# numpy>=1.24.0
+# sentence-transformers>=2.2.0
+
+# Optional: Web search capabilities (if using real MCP)
+# requests>=2.31.0
+# beautifulsoup4>=4.12.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.7.0
+flake8>=6.1.0
